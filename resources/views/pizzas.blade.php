@@ -13,7 +13,7 @@
     <body>
         <div class="content">
             <div class="title m-d-md">
-                Pizzas
+                Pizzass
             </div>
         </div>
     </body>
