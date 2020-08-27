@@ -17,13 +17,6 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/pizzas', function () {
+Route::get('/pizzas', 'PizzaController@index');
 
-    $pizza = [
-        'type' => 'hawaian',
-        'base' => 'cheesy crust',
-        'price' => 10
-    ];
-    return view('pizzas', $pizza );
-});
-
+Route::get('/pizzas/{id}', 'PizzaController@show');
