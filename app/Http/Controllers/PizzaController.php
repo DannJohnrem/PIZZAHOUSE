@@ -24,6 +24,7 @@ class PizzaController extends Controller
 
         return view('pizzas.show', ['pizza' => $pizza]);
     }
+    
 
     public function create() {
         return view('pizzas.create');
