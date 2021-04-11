@@ -4,16 +4,10 @@
 
     <div class="flex-center position-ref full-height">
         <div class="content">
-            <div class="title m-d-md">
-                Pizzas List
+            <img src="/img/pizza-house1.png" alt="pizzahouse">
+            <div class="title m-b-md">
+                The East's Best Pizza
             </div>
-
-            @foreach($pizzas as $pizza)
-                <div>
-                    {{$pizza->name}} - {{$pizza->type}} - {{$pizza->base}}
-                </div>
-            @endforeach
         </div>
     </div>
 @endsection
-
